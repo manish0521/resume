@@ -36,4 +36,42 @@ td > a {
     display:flex;
     text-align: center;
     justify-content: stretch;
+    background-color: antiquewhite;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+
+}
+.container{
+    display:flex;
+    text-align: left;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.skills > td {
+    display:flex;
+    flex-direction: column;
+    text-align: left;    
+}
+.work > td {
+    display:flex;
+    flex-direction: column;
+    text-align: left;  
+}
+.degrees > td {
+    display:flex;
+    flex-direction: column;
+    text-align: left;  
+}
+
+.bottom-container {
+    display:flex;
+    flex-direction: column;
+    text-align: left;  
+    background-color: antiquewhite;
 }
