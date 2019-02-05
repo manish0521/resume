@@ -1,0 +1,39 @@
+
+*{
+    margin: auto;
+}
+
+
+.top-nav {
+   margin-top: 5px;
+   height: 50px;
+   color: bisque;
+   position: top;
+   background-image: url("./images/nav-image.png");
+   text-align: center;
+   padding: 30px;
+ }
+ span{
+     color:rgb(168, 212, 65);
+ }
+
+.band {
+    margin: 5px;
+    color:rgb(168, 212, 65);
+    background-color: whitesmoke;
+}
+#social-media {
+    font-size: 24pt;
+}
+
+td > a {
+    text-decoration:none;
+    color: rgb(104, 164, 184);
+    text-align: center;
+}
+
+.write-up{
+    display:flex;
+    text-align: center;
+    justify-content: stretch;
+}
