@@ -35,23 +35,27 @@ td > a {
 .write-up{
     display:flex;
     text-align: center;
+    flex-direction: column-reverse;
     justify-content: stretch;
     background-color: antiquewhite;
 }
 
-.container{
-    display:flex;
+.bio{
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+    display: flex;
     flex-direction: column;
-    text-align: center;
-    justify-content: space-evenly;
-    background-color: antiquewhite;
-
+    flex-wrap: wrap;
 }
 .container{
     display:flex;
     text-align: left;
     flex-direction: row;
     justify-content: space-evenly;
+    background-color: antiquewhite;
+
+
 }
 .skills > td {
     display:flex;
