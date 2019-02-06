@@ -49,9 +49,9 @@ td > a {
     flex-wrap: wrap;
 }
 .container{
-    display:flex;
+    display:grid;
     text-align: left;
-    flex-direction: row;
+    grid-column-start: 1fr 2fr 1fr;
     justify-content: space-evenly;
     background-color: antiquewhite;
 
@@ -60,13 +60,16 @@ td > a {
 .skills > td {
     display:flex;
     flex-direction: column;
-    text-align: left;    
+    text-align: left;
+        
 }
 .work > td {
     display:flex;
     flex-direction: column;
     text-align: left;  
+    
 }
+
 .degrees > td {
     display:flex;
     flex-direction: column;
@@ -79,3 +82,55 @@ td > a {
     text-align: left;  
     background-color: rgb(196, 139, 64);
 }
+
+
+
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+    .container > div {
+        min-width: 200px;
+        min-height: 300px;
+    }
+    .container {
+        max-height: 3200px;
+        flex-wrap: wrap;
+        max-width: 500px; 
+    }
+}
+
+@media screen and (min-width:501px) and (max-width: 700px) {
+    .container > div {
+        min-width: 200px;
+        min-height: 300px;
+    }
+    .container {
+       
+        max-height: 1300px;
+        flex-wrap:  wrap;
+        max-width: 700px;
+    }
+}
+@media screen and (min-width: 701px) and (max-width: 900px) {
+    .container > div {
+        min-width: 200px;
+        min-height: 300px;
+    }
+    .container {
+        
+        flex-wrap: wrap;
+        max-height: 650px;
+        max-width: 1200px;
+    }
+}
+@media screen and (min-width: 901px) {
+    .container {
+        min-height: 300px;
+      
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: space-between;
+    }
+
+} 
+ 
