@@ -88,7 +88,16 @@
     background-color: rgb(196, 139, 64);
     position: bottom;
 }
-
+@media screen and (min-width: 0px) and (max-width: 400px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: space-evenly;
+    
+    
+    }
+}
 
 @media screen and (min-width: 400px) and (max-width: 500px) {
     .container {
@@ -120,16 +129,14 @@
     }
     .container {
     
-        display: flex;
-        flex-direction: column;
-        align-items: stretch;
-        justify-content: space-evenly;
+        max-height: 650px;
+        max-width: 1200px;
     }
 }
 @media screen and (min-width: 901px) {
     .container {
-        min-height: 300px;
-      
+        height: 100%;
+        width: 100%;
         display: flex;
         flex-direction: row;
         align-items: stretch;
